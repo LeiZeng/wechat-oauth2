@@ -2,7 +2,8 @@ import express from 'express'
 import bodyParser from 'body-parser'
 import cookieParser from 'cookie-parser'
 
-import { wxAuth, wxCallback } from './wx'
+import wxAuth from './wx/authentication'
+import wxCallback from './wx/callback'
 
 const app = express()
 
